@@ -11,7 +11,7 @@ def main(request):
   at = os.environ.get('access_token')
   ats = os.environ.get('access_token_secret')
 
-  end_day = datetime(2020, 7, 24)
+  end_day = datetime(2024, 7, 6)
   today = datetime.now()	
   delta = end_day - today	
   days = delta.days + 1	
