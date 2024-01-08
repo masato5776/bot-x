@@ -5,7 +5,7 @@ steps:
   - functions
   - deploy
   - function-x-bot
-  - --region=global
+  - --region=us-central1
   - --source=.
   - --trigger-http
   - --runtime=python312
