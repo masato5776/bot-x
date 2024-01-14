@@ -1,6 +1,4 @@
 import os
-import sys
-import time
 import tweepy
 from datetime import datetime
 
@@ -19,4 +17,4 @@ def main(request):
   api = tweepy.Client(bearer_token=bt,consumer_key=ck,consumer_secret=cs,access_token=at,access_token_secret=ats)
   tweet = api.create_tweet(text=f"あと{days}日")
 
-  return f"OK {bt},{ck},{cs},{at},{ats}"
+  return f"OK {days}"
